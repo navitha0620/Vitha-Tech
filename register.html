@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitha Tech</title>
+    <link rel="shortcut icon" href="HTMLPIC/Vitha Tech 1.png" type="image/x-icon">
+    <style>
+        h1{
+            text-align: center;
+            color:black;
+        }
+        p{
+            padding:15px;
+            font-style: italic;
+            font-size: 20px;
+            color: black;
+        }
+        footer{
+        background-color: rgb(150, 242, 150);
+        text-align: center;
+        color:black;
+        padding:10px;
+      }
+      
+    </style>
+    <link rel="Stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid ">
+            <a href="index.html" class="navbar-brand">
+                <img src="HTMLPIC/Vitha Tech 1.png"  class="img img-thumbnail rounded-circle" style="width: 5em;" alt="babyplant">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav float-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" >ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html" >REGISTER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="login.html" >LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="items.html" >ITEMS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" >CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="HTMLPIC/Vitha Tech 1.png" class="img img-thumbnail rounded-circle w-100" alt="">
+            </div>
+            <div class="col-sm-6">
+                <div>
+                <h1 style="font-family:Agency FB">REGISTER FORM</h1>
+                    <form action="" method="">
+                        <div class="mb-3">
+                            <input class="form-control border-3 border-dark" type="Name" name="Name" id="Name-id" placeholder="Full Name">
+                        </div>
+                        <div class="mb-3">
+                            <input class="form-control border-3 border-dark" type="mail" name="Mail" id="Mail-id" placeholder="Email-Id">
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control border-3 border-dark" type="password" name="Password" id="Password" placeholder="Password">
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control border-3 border-dark" type="password" name=" Confirm Password" id=" confirm Password" placeholder="Confirm Password">
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control border-3 border-dark" type="tel" name="Phoneno" id="Phoneno" placeholder="Contact Number">
+                        </div>
+                        <div class="mb-2">
+                            <select class="form-select border-3 border-dark" name="country" id="country">
+                                <option value="-">--Country--</option>
+                                <option value="india">India</option>
+                                <option value="us1">USA</option>
+                            </select>
+                        </div>
+                        <div class="mb-2">
+                            <h6>Address</h6>
+                            <textarea name="address" id="addressid" class="form-control border-3 border-dark" id="textarea"></textarea>
+                        </div>
+                        <div>
+                            <div class="mb-2 border border-3 border-dark rounded p-2">
+                                <label class="d-block h6" for="">Types</label>
+                                <input class="form-check-inline" type="checkbox" name="plants" id="p1">Flagship Smartphones
+                                <input class="form-check-inline" type="checkbox" name="plants" id="p2">5G Phones
+                                <input class="form-check-inline" type="checkbox" name="plants" id="p3">Bussiness Phones
+                            </div>
+                            <div class="mb-2 border border-3 border-dark rounded p-2">
+                                <label class="d-block h6" for="">Rugged Phones</label>
+                                <input type="radio" class="form-check-inline" name="trees" id="t1">Long-Lasting battery life
+                                <input type="radio" class="form-check-inline" name="trees" id="t2">Waterproof
+                                <input type="radio" class="form-check-inline" name="trees" id="t3">Other
+                            </div>
+                            <div class="mb-2 ">
+                                <button class="btn btn-success " type="submit">Register</button>
+                                <button class="btn btn-danger" type="reset">Reset</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 style="text-align: center; color: green;">Join the Vitha Tech community today and explore the future of mobile technology with us!</h1>
+    <footer>
+        <p>Copyright © 2024 - 2025 TermsFeed®. All rights reserved.</p>
+      </footer>
+</body>
+</html>

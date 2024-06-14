@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitha Tech</title>
+    <link rel="shortcut icon" href="HTMLPIC/Vitha Tech 1.png" type="image/x-icon">
+    <style>
+        h1{
+            text-align: center;
+            color:black;
+        }
+        p{
+            padding:15px;
+            font-style: italic;
+            font-size: 20px;
+            color: black;
+        }
+        span.psw {
+        float: right;
+        padding-top: 16px;
+        }
+        @media screen and (max-width: 300px) {
+        span.psw {
+            display: block;
+            float: none;
+        }
+        .cancelbtn {
+            width: 100%;
+        }
+    }       
+    footer{
+        background-color:rgb(150, 242, 150);
+        text-align: center;
+        color:black;
+        padding:10px;
+      }
+        
+    </style>
+    <link rel="Stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid ">
+            <a href="index.html" class="navbar-brand">
+                <img src="HTMLPIC/Vitha Tech 1.png"  class="img img-thumbnail rounded-circle" style="width: 5em;" alt="babyplant">
+            </a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav float-end">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html" >ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html" >REGISTER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" href="login.html" >LOGIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="items.html" >ITEMS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html" >CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container ">
+        <div class="row">
+            <div class="col-sm-6">
+                <img src="HTMLPIC/Vitha Tech 1.png" class="img img-thumbnail rounded-circle w-100" alt="">
+            </div>
+            <div class="col-sm-6">
+                <div>
+                <h1 style="font-family:Agency FB">LOGIN</h1>
+                    <form action="" method="">
+                        <div class="mb-3">
+                            <input class="form-control border-3 border-dark" type="mail" name="Mail" id="Mail-id" placeholder="Email-Id">
+                        </div>
+                        <div class="mb-2">
+                            <input class="form-control border-3 border-dark" type="password" name="Password" id="Password" placeholder="Password">
+                        </div>
+                            <div class="mb-2 ">
+                                <button class="btn btn-success " type="submit">Login</button>
+                                <div>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                  </label>
+                                  </div>
+                                </div>
+                              
+                                <div class="container" style="background-color: whitesmoke">
+                                  <button type="button" class="cancel btn btn-danger">Cancel</button>
+                                  <span class="psw" >Forgot <a href="https://www.gmail.com">password?</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h1 style="text-align: center; color: green;">Explore now and stay connected with Vitha Tech. Your tech journey starts here!
+    </h1>
+    <footer>
+        <p>Copyright © 2024 - 2025 TermsFeed®. All rights reserved.</p>
+      </footer>
+</body>
+</html>
